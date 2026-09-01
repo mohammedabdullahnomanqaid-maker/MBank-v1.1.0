@@ -2,14 +2,14 @@
 
 A Beginner C++ Console Project
 
-A simple banking project developed as part of the early stage of my programming journey.
+A simple banking project developed during the early stage of my programming journey.
 
-<br>📖 About ·
-🎯 Purpose ·
-🛠️ Technologies ·
-🖥️ Output ·
-📂 Structure ·
-🚀 Getting Started
+<br>"📖 About" (#-about-the-project) ·
+"🎯 Purpose" (#-project-purpose) ·
+"🛠️ Technologies" (#️-technologies) ·
+"🖥️ Output" (#️-program-output) ·
+"📂 Structure" (#-project-structure) ·
+"🚀 Getting Started" (#-getting-started)
 
 </div>---
 
@@ -17,9 +17,9 @@ A simple banking project developed as part of the early stage of my programming 
 
 MBank v1.1.0 is a C++ Console Application developed during the early stage of my programming journey.
 
-The project is developed using C++ and Visual Studio.
+The project is built using C++ and Visual Studio, providing a simple menu-driven banking application.
 
-This version continues the development of the MBank project by adding a simple Transactions menu to the console application.
+This version continues the development of MBank with a dedicated Transactions Menu alongside the client-management menu.
 
 ---
 
@@ -36,15 +36,19 @@ Milestone| Date
 
 The main purpose of this project was to continue practicing programming through a small banking-themed console application.
 
-The project focuses on client-management operations and a simple transactions menu.
+The project focuses on:
 
-More importantly, it represents another early practical step in my journey of learning C++.
+- 👤 Client-management operations
+- 💳 Basic transaction operations
+- 🧭 Menu-driven program navigation
+
+«Note: This project was created as part of my early programming journey, with a focus on learning and practical C++ development.»
 
 ---
 
 ✨ Main Menu
 
-The application provides a simple menu for managing bank clients and accessing transactions.
+The application starts with a simple console menu for managing clients and accessing transactions.
 
 ╔═══════════════════════════════════════════════════╗
 ║                                                   ║
@@ -53,17 +57,11 @@ The application provides a simple menu for managing bank clients and accessing t
 ╠═══════════════════════════════════════════════════╣
 ║                                                   ║
 ║    [1]  Show Client List                          ║
-║                                                   ║
 ║    [2]  Add New Client                            ║
-║                                                   ║
 ║    [3]  Delete Client                             ║
-║                                                   ║
 ║    [4]  Update Client Info                        ║
-║                                                   ║
 ║    [5]  Find Client                               ║
-║                                                   ║
 ║    [6]  Transactions                              ║
-║                                                   ║
 ║    [7]  Exit                                      ║
 ║                                                   ║
 ╚═══════════════════════════════════════════════════╝
@@ -71,22 +69,195 @@ The application provides a simple menu for managing bank clients and accessing t
 Available Operations
 
 Option| Operation
-1| Show Client List
-2| Add New Client
-3| Delete Client
-4| Update Client Information
-5| Find Client
-6| Transactions
-7| Exit
+"1"| Show Client List
+"2"| Add New Client
+"3"| Delete Client
+"4"| Update Client Information
+"5"| Find Client
+"6"| Transactions
+"7"| Exit
 
 ---
 
 💳 Transactions Menu
 
-The Transactions section provides a simple menu for the available transaction operations.
+The Transactions Menu provides the available transaction operations.
 
 ╔═══════════════════════════════════════════════════╗
 ║                                                   ║
+║             Transactions Menu Screen              ║
+║                                                   ║
+╠═══════════════════════════════════════════════════╣
+║                                                   ║
+║    [1]  Deposit                                   ║
+║    [2]  Withdraw                                  ║
+║    [3]  Total Balances                            ║
+║    [4]  Main Menu                                 ║
+║                                                   ║
+╚═══════════════════════════════════════════════════╝
+
+Available Operations
+
+Option| Operation
+"1"| Deposit
+"2"| Withdraw
+"3"| Total Balances
+"4"| Main Menu
+
+---
+
+🛠️ Technologies
+
+Technology| Usage
+C++| Main programming language
+Visual Studio| Development environment
+Console Application| Application type
+
+---
+
+🖥️ Program Output
+
+Instead of using real screenshots, the main interfaces are represented below using console-style drawings based directly on the application's menus.
+
+🏦 Main Menu
+
+===========================================
+            Main Menu Screen
+===========================================
+    [1] Show Client List.
+    [2] Add New Client.
+    [3] Delete Client.
+    [4] Update Client Info.
+    [5] Find Client.
+    [6] Transactions.
+    [7] Exit.
+===========================================
+
+💳 Transactions
+
+===========================================
+        Transactions Menu Screen
+===========================================
+    [1] Deposit.
+    [2] Withdraw.
+    [3] Total Balances.
+    [4] Main Menu.
+===========================================
+
+«💡 Note: These are visual representations of the actual console menus, used instead of screenshots.»
+
+---
+
+📂 Project Structure
+
+The repository contains the Visual Studio project files:
+
+MBank-v1.1.0/
+│
+├── 📄 .gitignore
+├── 📄 MBank-v1.1.sln
+├── 📄 MBank-v1.1.vcxproj
+└── 📄 MBank-v1.1.vcxproj.filters
+
+---
+
+🚀 Getting Started
+
+Prerequisites
+
+Before running the project, make sure you have:
+
+- 🪟 Windows
+- 🛠️ Visual Studio
+- ⚙️ C++ development tools installed in Visual Studio
+
+---
+
+1️⃣ Open the Project
+
+Open the solution:
+
+MBank-v1.1.sln
+
+with Visual Studio.
+
+---
+
+2️⃣ Select the Configuration
+
+Choose the desired configuration:
+
+Debug
+
+or
+
+Release
+
+---
+
+3️⃣ Build & Run
+
+Build the solution and run the application.
+
+The console window will display the MBank Main Menu, allowing you to navigate through the available operations.
+
+---
+
+📈 Version
+
+v1.1.0
+
+This is the second version of the MBank project.
+
+This version includes a dedicated Transactions Menu with:
+
+- Deposit
+- Withdraw
+- Total Balances
+- Main Menu
+
+It represents another small step forward in my early C++ programming journey.
+
+---
+
+🎓 Learning Journey
+
+This project represents one of the early practical steps in my journey of learning programming.
+
+It gave me an opportunity to practice C++ by building a small console-based banking application and improving its menu structure.
+
+What I Practiced
+
+- C++ fundamentals
+- Console applications
+- Functions
+- Conditional statements
+- Loops
+- User input and output
+- Menu-driven program design
+- Client-management operations
+- Basic transaction menu design
+- Visual Studio project management
+
+«🌱 Small project, early stage, valuable experience.»
+
+---
+
+👨‍💻 Author
+
+<div align="center">Mohammed Abdullah Noman Qaid Mohammed
+
+Computer Science Student — Taiz University
+
+<br></div>---
+
+<div align="center">🏦 MBank v1.1.0
+
+Another small step in my programming journey.
+
+<br>⭐ Learning • Building • Improving
+
+</div>║                                                   ║
 ║             Transactions Menu Screen              ║
 ║                                                   ║
 ╠═══════════════════════════════════════════════════╣

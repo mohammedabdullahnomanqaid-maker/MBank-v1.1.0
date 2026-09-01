@@ -30,10 +30,10 @@ This version continues the MBank project with a **Transactions Menu** alongside 
 
 | Version | Started | Completed | Language |
 |:---:|:---:|:---:|:---:|
-| [v1.0.0](https://github.com/mohammedabdullahnomanqaid-maker/MBank-v1.0.0) | 2025/12/01 | 2025/12/04 | C++ |
 | **v1.1.0** | **2025/12/05** | **2025/12/10** | **C++** |
----
+| [v1.0.0](https://github.com/mohammedabdullahnomanqaid-maker/MBank-v1.0.0) | 2025/12/01 | 2025/12/04 | C++ |
 
+---
 ## 🎯 Purpose
 
 The project was created to practice C++ programming through a small banking-themed console application.
